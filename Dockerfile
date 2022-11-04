@@ -13,7 +13,7 @@ RUN yarn install
 # copia o projeto para o diretório criado no container
 COPY . .
 
-# expõe a porta 3000
+# container irá ouvir nessa porta
 EXPOSE 3000
 
 # comando que roda a aplicação
