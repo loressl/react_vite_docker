@@ -49,3 +49,7 @@
     ```bash
       docker stop -t=0 CONTAINER-ID
     ```
+  - Rodar container salvo na máquina
+    ```bash
+      docker start CONTAINER-ID
+    ```
